@@ -13,8 +13,8 @@ $('#form').submit(function() {
 var fizzBuzz= function(number) {
 
 	if (number >100) {
-		alert("You must enter a number between 1 and 100")
-	};
+		alert("You must enter a number between 1 and 100");
+		}
 	
 	for (var i = 0 ; i <= number; i++) {
 			if (i % 3 === 0 && i % 5 == 0) {
